@@ -272,7 +272,7 @@ Gemini Enterprise can analyze public web data, process files, and format data fo
 
    <br>
 
-   <img src="jumpstart_images/image-10_bordered.png" width="80%" alt="File Analysis PDF Upload" />
+   <img src="jumpstart_images/task3_pdf_upload.png" width="80%" alt="File Analysis PDF Upload Prompt" />
 
 <br><br>
 
