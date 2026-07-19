@@ -26,8 +26,7 @@
 
 **Last Modified**: July 2026  
 **Target Audience**: IHG Employees (Hotel Operations, Guest Experience, Franchise Support, Marketing, HR, IT & Corporate Strategy)  
-**Duration**: 2 Hours (Virtual Workshop)  
-**Version**: 2.2 (Precision Verified Screenshot & Instruction Matching)
+**Duration**: 2 Hours (Virtual Workshop)
 
 ---
 
@@ -38,6 +37,8 @@
 Welcome to the **Gemini Enterprise Hands-on Workshop** for InterContinental Hotels Group (IHG)!
 
 Gemini Enterprise is Google Cloud’s premier AI assistant designed specifically for businesses. It provides secure, enterprise-grade access to Google's most capable AI models, seamlessly integrated with your organization's data ecosystem. Built from the ground up to prioritize data privacy and security, it ensures your sensitive corporate information remains protected within IHG's enterprise boundary.
+
+In this session, you will explore the core day-one capabilities of the platform.
 
 By leveraging Gemini Enterprise, IHG teams can drastically accelerate everyday workflows, synthesize complex information rapidly, and foster deeper creative problem-solving. From drafting guest recovery responses and analyzing hotel operations datasets to conducting deep market research and building custom workflow agents, Gemini acts as an intelligent collaborator across all departments.
 
@@ -80,6 +81,11 @@ Let's start by getting familiar with the Gemini Enterprise interface and foundat
    <br>
 
    <img src="jumpstart_images/task1_retreat_fresh_new_chat.png" width="80%" alt="Team Retreat Planning Response in New Chat" />
+
+<br><br>
+
+> [!NOTE]
+> **Canvas Feature Note**: Gemini Enterprise may open Canvas view depending on the length and structure of the generated itinerary or plan. In some instances, the response will render directly within the standard chat stream, while in others it will automatically open in the expanded Canvas editor panel on the right side of the screen.
 
 <br><br>
 
@@ -166,21 +172,17 @@ Let's start by getting familiar with the Gemini Enterprise interface and foundat
 1. **Navigate to Settings:**
    * Click **Settings & help** (gear icon at bottom left) → **Personalization**.
 
-   <br>
-   
-   <img src="jumpstart_images/task2_personalization.png" width="80%" alt="Personalization Settings" />
-
 <br><br>
 
 2. **Edit your Profile:**
    * Enter your details:
-     - **Preferred name**: *[Your Name]*
-     - **Role or job title**: *e.g., Guest Relations Manager / Hotel Operations Lead / Loyalty Marketer*
-     - **Industry**: `Hospitality & Hotel Operations`
+     - **Preferred name**: `Alice` (or your preferred name)
+     - **Your role or job title**: `Guest Relations Manager`
+     - **Your industry**: Select **`Custom`** from the dropdown menu, then enter: `Industry: Hospitality & Hotel Operations`
 
    <br>
 
-   <img src="jumpstart_images/image-14_bordered.png" width="80%" alt="Edit Profile Details" />
+   <img src="jumpstart_images/task2_personalization_custom.png" width="80%" alt="Personalization Settings with Custom Industry" />
 
 <br><br>
 
@@ -226,26 +228,27 @@ Gemini Enterprise can analyze public web data, process files, and format data fo
 
    <br>
 
-   <img src="jumpstart_images/task3_web_search.png" width="80%" alt="Web Search Grounding Response" />
+   <img src="jumpstart_images/task3_web_search_full.png" width="80%" alt="Web Search Results for Luxury Hotel Trends 2026" />
 
 <br><br>
 
 3. **Check Sources & Citations:**
-   * Notice hyperlinked reference citations within generated answers. Click citations to view exact web sources.
+   * Notice hyperlinked reference citations within generated answers. Click on the **Sources** popover (e.g., `Sources · 3`) to view the exact public website articles used to ground the answer.
 
    <br>
 
-   <img src="jumpstart_images/image-8_bordered.png" width="80%" alt="Check Citation Sources" />
+   <img src="jumpstart_images/task3_sources_popup.png" width="80%" alt="Sources Citation Popover View" />
 
 <br><br>
 
 4. **Follow-Up Questions via Text Highlighting:**
-   * Highlight a specific sentence in the generated answer.
-   * Click the tooltip pop-up icon, type `Tell me more about their loyalty program positioning`, and submit.
+   * Highlight a specific word or phrase in the generated answer (e.g., `InterContinental`).
+   * A floating **Ask Gemini** tooltip will appear above the highlighted text.
+   * Type your follow-up query: `Tell me more about their loyalty program positioning`, and submit.
 
    <br>
 
-   <img src="jumpstart_images/image-9_bordered.png" width="80%" alt="Follow up questions via text highlighting" />
+   <img src="jumpstart_images/task3_highlight_ask_gemini.png" width="80%" alt="Ask Gemini Text Highlighting Tooltip & Prompt" />
 
 <br><br>
 
