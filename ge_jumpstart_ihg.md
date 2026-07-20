@@ -850,7 +850,7 @@ Grand Horizon Conference Inquiry Notes:
 
    <br>
 
-   <img src="jumpstart_images/image-49_bordered.png" width="80%" alt="Test Agent Output" />
+   <img src="jumpstart_images/task11_agent_builder_test_output.png" width="80%" alt="Test Agent Output" />
 
 <br><br>
 
