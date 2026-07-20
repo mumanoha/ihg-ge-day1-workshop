@@ -812,7 +812,7 @@ When presented with notes from a corporate group sales inquiry or event call:
 
    <br>
 
-   <img src="jumpstart_images/image-47_bordered.png" width="80%" alt="Main Node Configuration" />
+   <img src="jumpstart_images/task11_agent_builder_main_node.png" width="80%" alt="Main Node Configuration" />
 
 <br><br>
 
