@@ -458,7 +458,14 @@ The **Deep Research** agent performs extensive multi-step web and company search
 # Task 8: Generating Media (Images and Video)
 
 ### Part A: Text-to-Image Generation
-1. Click **New Chat** → Select **Image Generator** tool.
+1. Click **New Chat** → Click the **Tools** icon (`+` / sliders icon) → Select **Create images** (Image Generator tool).
+
+   <br>
+
+   <img src="jumpstart_images/task8_tools_create_images.png" width="80%" alt="Tools menu selecting Create images" />
+
+<br><br>
+
 2. Enter prompt: `Generate a high-resolution promotional website banner for a luxury InterContinental beach resort in Bali at sunset, showing modern infinity pool and palm trees.`
 
    <br>
@@ -478,7 +485,7 @@ The **Deep Research** agent performs extensive multi-step web and company search
 ### Part B: Multimodal Image Generation (Infographic from PDF)
 1. Download sample file: [`data/ge_sample_data_for_workshop/acme-co/Web Design RFP.pdf`](data/ge_sample_data_for_workshop/acme-co/Web%20Design%20RFP.pdf).
 2. Start **New Chat**, click **+**, upload PDF.
-3. Select **Image Generator** tool.
+3. Select **Image Generator** tool (**Create images**).
 4. Type: `Create an infographic timeline based on the key dates and milestones in this RFP document.`
 
    <br>
@@ -492,7 +499,7 @@ The **Deep Research** agent performs extensive multi-step web and company search
 <br><br>
 
 ### Part C: Video Generation with Veo
-1. Click **New Chat** → Select **Generate videos with Veo** tool.
+1. Click **New Chat** → Select **Generate videos with Veo** tool (**Create videos (Veo 3.1)**).
 2. Enter prompt: `A cinematic time-lapse of a bustling luxury hotel lobby at dusk, warm lighting, elegant chandelier, guests arriving, smooth camera motion.`
 
    <br>
