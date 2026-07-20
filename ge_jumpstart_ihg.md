@@ -733,7 +733,7 @@ The **Deep Research** agent performs extensive multi-step web and company search
 
 <br><br>
 
-2. Prompt input: `Use Google Search to prepare a daily briefing on hospitality industry trends, hotel technology innovations, and competitor loyalty updates. Present as bulleted list with bold key phrases.`
+2. In the prompt input box, enter your instructions: `Use Google Search to prepare a daily briefing on hospitality industry trends, hotel technology innovations, and competitor loyalty updates. Present as bulleted list with bold key phrases.` and click **Submit**.
 
    <br>
 
@@ -741,11 +741,11 @@ The **Deep Research** agent performs extensive multi-step web and company search
 
 <br><br>
 
-3. Click submit → Explore preview card (Flow, Schedule, Preview).
+3. Explore the agent configuration canvas and preview tabs (**Flow**, **Schedule**, **Preview**).
 
    <br>
 
-   <img src="jumpstart_images/image-42_bordered.png" width="80%" alt="Explore Agent Flow View" />
+   <img src="jumpstart_images/task10_agent_builder_flow_preview.png" width="80%" alt="Explore Agent Configuration Flow View" />
 
 <br><br>
 
