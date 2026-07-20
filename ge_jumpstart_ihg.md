@@ -623,11 +623,11 @@ The **Deep Research** agent performs extensive multi-step web and company search
 
 <br><br>
 
-2. Click **Create a new Notebook** (Title: `IHG Brand Expansion & Vendor Analysis`).
+2. Click **Create a new Notebook** (or **+ Create new notebook**).
 
    <br>
 
-   <img src="jumpstart_images/image-29_bordered.png" width="80%" alt="Create New Notebook" />
+   <img src="jumpstart_images/task9_notebooklm_add_sources_modal.png" width="80%" alt="Add Sources Modal in NotebookLM" />
 
 <br><br>
 
