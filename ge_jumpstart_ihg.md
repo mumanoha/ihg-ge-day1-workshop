@@ -529,10 +529,17 @@ The **Deep Research** agent performs extensive multi-step web and company search
 <br><br>
 
 > [!TIP]
-> **🎨 Pro Tip for Creative & Media Teams (Advanced Veo 3.1 Prompting)**  
-> Try this macro slow-motion video prompt:
+> **🎬 Official Veo 3.1 Directing Formula (Google Cloud & DeepMind Prompting Standard)**  
+> Apply the official 5-part formula for direct Hollywood-style control:  
+> **`[Cinematography] + [Subject] + [Action] + [Context] + [Style, Ambiance & Audio]`**
+>
+> **Advanced Timestamp Directing `[00:00-00:08]`**: You can direct multi-shot sequences with precise Pacing & Audio SFX in a single prompt:
 > ```text
-> Cinematic macro close-up video of an expert mixologist crafting a signature smoked cocktail at a Regent Hotels rooftop sky bar at night. Slow-motion 120fps camera move: liquid pour over a crystal clear sphere ice block, subtle smoke rising from wood chips, city skyline bokeh lights blurred gracefully in the background, sharp focus on water droplets on the crystal glass, dynamic warm lighting.
+> [00:00-00:02] Wide high-angle drone tracking shot gliding over an overwater bungalow at InterContinental Bora Bora during golden hour. Warm sunlight reflecting on calm turquoise lagoon waters. SFX: soft ocean breeze, gentle waves lapping.
+>
+> [00:02-00:05] Medium shot of a well-dressed couple sitting on private deck loungers, smiling as a butler serves fresh tropical cocktails. Ambient noise: light acoustic guitar playing in the background.
+>
+> [00:05-00:08] Macro slow-motion close-up of a fresh hibiscus flower floating in the resort infinity pool with water ripples reflecting the setting sun. Shallow depth of field, 4k cinematic resolution, filmic color grade.
 > ```
 
 <br><br>

@@ -146,3 +146,45 @@ A high-resolution cinematic slow-motion video of a luxury InterContinental hotel
 ```text
 Cinematic macro close-up video of an expert mixologist crafting a signature smoked cocktail at a Regent Hotels rooftop sky bar at night. Slow-motion 120fps camera move: liquid pour over a crystal clear sphere ice block, subtle smoke rising from wood chips, city skyline bokeh lights blurred gracefully in the background, sharp focus on water droplets on the crystal glass, dynamic warm lighting.
 ```
+
+---
+
+## 🎬 7. Veo 3.1 Master Video Directing Guide (Official DeepMind & Google Cloud Formula)
+
+To direct **Veo 3.1** like a Hollywood cinematographer, apply Google Cloud & DeepMind’s official **5-Part Formula**:
+
+```text
+[Cinematography] + [Subject] + [Action] + [Context] + [Style, Ambiance & Audio]
+```
+
+### 7.1 Key Prompt Ingredients Breakdown
+1. **Cinematography**: Camera motion (*dolly shot, tracking shot, orbital pan, crane shot, aerial drone flythrough*), shot composition (*wide shot, close-up, extreme macro, low-angle hero shot*), lens (*shallow depth of field, wide-angle lens, anamorphic lens flare*).
+2. **Subject**: The focal character, dish, luxury amenity, or hotel architectural structure.
+3. **Action**: Natural movement or transformation (*pouring liquid, guests walking, sunset shadows shifting, smoke rising*).
+4. **Context**: Specific hospitality environment (*overwater villa deck, historic European lobby, rooftop infinity pool*).
+5. **Style, Ambiance & Audio**: Lighting mood (*golden hour, cinematic dusk, volumetric sunlight, warm tungsten glow*), soundscape (*dialogue in quotes, SFX, ambient noise*).
+
+---
+
+### 7.2 Soundstage & Audio Control in Veo 3.1
+Veo 3.1 generates a complete, synchronized soundtrack directly from your text prompt:
+- **Dialogue**: Enclose spoken words in double quotes:  
+  `A concierge steps forward with a warm smile and says, "Welcome to InterContinental Grand Paris. How may I assist you today?"`
+- **Sound Effects (SFX)**: Specify clear physical sound cues:  
+  `SFX: crystal champagne glasses clinking, champagne cork popping.`
+- **Ambient Sound**: Define background atmosphere:  
+  `Ambient noise: gentle ocean waves lapping against teak wood pillars, soft tropical breeze.`
+
+---
+
+### 7.3 Multi-Shot Sequence Directing via Timestamps `[00:00-00:08]`
+Veo 3.1 supports **Timestamp Directing** to direct complete multi-shot sequences in a single generation:
+
+#### 🏆 IHG Master Showcase Prompt (Timestamped Luxury Hotel Commercial):
+```text
+[00:00-00:02] Wide high-angle drone tracking shot gliding over an overwater bungalow at InterContinental Bora Bora during golden hour. Warm sunlight reflecting on calm turquoise lagoon waters. SFX: soft ocean breeze, gentle waves lapping.
+
+[00:02-00:05] Medium shot of a well-dressed couple sitting on private deck loungers, smiling as a butler serves fresh tropical cocktails. Ambient noise: light acoustic guitar playing in the background.
+
+[00:05-00:08] Macro slow-motion close-up of a fresh hibiscus flower floating in the resort infinity pool with water ripples reflecting the setting sun. Shallow depth of field, 4k cinematic resolution, filmic color grade.
+```
