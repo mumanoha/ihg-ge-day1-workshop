@@ -832,6 +832,12 @@ When presented with notes from a corporate group sales inquiry or event call:
 Develop a list of 5 discovery questions to clarify group catering preferences, AV requirements, airport shuttle logistics, and IHG One Rewards bonus point distribution for meeting planners.
 ```
 
+   <br>
+
+   <img src="jumpstart_images/task11_agent_builder_subagent_configured.png" width="80%" alt="Subagent Node Configured on Canvas" />
+
+<br><br>
+
 4. Click **Create** (upper right).
 5. **Test Agent**: Click **Chat with Agent** and enter test notes:
 ```text
