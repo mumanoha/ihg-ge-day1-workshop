@@ -650,15 +650,27 @@ The **Deep Research** agent performs extensive multi-step web and company search
 
 <br><br>
 
-6. Generate **Mind Map**.
-
-   <br>
-
-   <img src="jumpstart_images/image-32_bordered.png" width="80%" alt="NotebookLM Mind Map Feature" />
+6. Ask a follow-up question: `Are there any gaps we cant cover based on the rfp requirements?`
 
 <br><br>
 
-7. **Audio Overview**: Right panel → Audio Overview → Customize → Type `Focus on how vendor capabilities support hotel franchise onboarding` → Click **Generate**.
+7. Generate **Mind Map** (Click **Mind Map** in the right Studio panel).
+
+   <br>
+
+   <img src="jumpstart_images/task9_notebooklm_mindmap_rfp.png" width="80%" alt="NotebookLM Mind Map Visualizing RFP Lifecycle" />
+
+<br><br>
+
+8. **Customize & Generate Audio Overview**:
+   - **Locate Feature**: Find **Audio Overview** in the right Studio panel.
+   - **Customize**: Hover over it, click the **three dots** icon → select customize audio focus.
+   - **Type Focus Prompt**: `Focus on why Acme's solutions and products for this RFP.`
+   - **Length**: Select **Default** length.
+   - Click **Generate** to create a dynamic, podcast-style audio discussion.
+
+   > [!NOTE]
+   > **Asynchronous Generation Note**: The full audio generation may take several minutes to complete. Once your audio generation is submitted and running, you can move on to the next task and come back afterwards to check the results in Task 12.
 
    <br>
 
@@ -666,7 +678,14 @@ The **Deep Research** agent performs extensive multi-step web and company search
 
 <br><br>
 
-8. **Video Overview**: Customize video focus and generate.
+9. **Customize & Generate Video Overview**:
+   - **Locate Feature**: Find **Video Overview** in the right Studio panel.
+   - **Customize**: Hover over it, click the **three dots** icon → select customize video focus.
+   - **Type Focus Prompt**: `Focus on why Acme's solutions and products for this RFP.`
+   - Click **Generate** to create a video discussion.
+
+   > [!NOTE]
+   > **Asynchronous Generation Note**: The full video generation may take several minutes to complete. Once your video generation is submitted and running, you can move on to the next task and come back afterwards to check the results in Task 12.
 
    <br>
 
@@ -674,13 +693,21 @@ The **Deep Research** agent performs extensive multi-step web and company search
 
 <br><br>
 
-9. **FAQ & Notes**: Generate FAQ report and click **Save to note**.
+10. **FAQ & Notes**: Generate FAQ report and click **Save to note**.
 
    <br>
 
    <img src="jumpstart_images/image-37_bordered.png" width="80%" alt="Generate FAQ Report" />
 
 <br><br>
+
+11. **Saving a New Note**:
+    - In the Chat area, type: `What criteria will DreamWeave use for evaluation?`
+    - Submit the question.
+    - Once you get an answer, click the **Save to note** button at the bottom.
+    - Notice a new note is automatically generated in the Studio area.
+
+   <br>
 
    <img src="jumpstart_images/image-38_bordered.png" width="80%" alt="Save to Note Feature" />
 
