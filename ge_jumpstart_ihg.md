@@ -821,7 +821,7 @@ When presented with notes from a corporate group sales inquiry or event call:
 
    <br>
 
-   <img src="jumpstart_images/image-48_bordered.png" width="80%" alt="Add Subagent Node" />
+   <img src="jumpstart_images/task11_agent_builder_add_subagent.png" width="80%" alt="Add Subagent Node" />
 
 <br><br>
 
