@@ -490,11 +490,11 @@ The **Deep Research** agent performs extensive multi-step web and company search
 
    <br>
 
-   <img src="jumpstart_images/image-51_bordered.png" width="80%" alt="Infographic Generation Prompt" />
+   <img src="jumpstart_images/task8_rfp_infographic_prompt.png" width="80%" alt="Infographic Generation Prompt" />
 
 <br><br>
 
-   <img src="jumpstart_images/image-52_bordered.png" width="80%" alt="Generated Timeline Infographic" />
+   <img src="jumpstart_images/task8_rfp_infographic_output.png" width="80%" alt="Generated Timeline Infographic" />
 
 <br><br>
 
