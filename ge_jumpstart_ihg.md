@@ -916,7 +916,7 @@ These optional challenge labs provide step-by-step bonus practice for participan
 
 ---
 
-### Challenge Lab 1: Financial & Hospitality Market Analyst Briefing
+### Challenge Lab 1: Financial Analyst Briefing (Alphabet Q4 Earnings)
 
 **Objective:** Synthesize a video briefing, corporate document, and web resources to extract financial insights and generate a focused Audio Overview.
 
@@ -924,7 +924,7 @@ These optional challenge labs provide step-by-step bonus practice for participan
 
 1. **Workspace Setup**:
    - Open **NotebookLM** → click **Create a new Notebook**.
-   - Name the notebook: `Alphabet & Market Q4 Earnings`.
+   - Name the notebook: `Alphabet Q4 Earnings`.
    - Click **Add Source** (`+` icon) → choose **YouTube URL** → paste: `https://www.youtube.com/watch?v=mIK5-yi7a-c` → click **Insert**.
    - Click **Add Source** → choose **Link** → paste press release PDF: `https://s206.q4cdn.com/479360582/files/doc_financials/2025/q4/2025q4-alphabet-earnings-release.pdf`.
    - Click **Add Source** → choose **Link** → paste story link: `https://about.google/company-info/our-story/`.
@@ -956,7 +956,7 @@ These optional challenge labs provide step-by-step bonus practice for participan
 
 ---
 
-### Challenge Lab 2: Hotel GTM Strategy & Cross-Department Synthesis
+### Challenge Lab 2: GTM Strategy & Cross-Department Synthesis
 
 **Objective:** Synthesize multiple departmental data files (marketing, sales performance, and guest feedback) to identify correlations, conduct sentiment analysis, and generate a strategic GTM memo.
 
@@ -964,7 +964,7 @@ These optional challenge labs provide step-by-step bonus practice for participan
 
 1. **Workspace Setup**:
    - Open **NotebookLM** → click **Create a new Notebook**.
-   - Name the notebook: `IHG GTM Strategy`.
+   - Name the notebook: `XYZ GTM Strategy`.
    - Click **Add Source** → drag and drop the three text files from your local repository folder [`data/ge_sample_data_for_workshop/xyz-sales-company/notebooklm/`](data/ge_sample_data_for_workshop/xyz-sales-company/notebooklm/):
      - 📄 `MARKETING_data.txt`
      - 📄 `SALES_data.txt`
@@ -993,15 +993,15 @@ These optional challenge labs provide step-by-step bonus practice for participan
 
 ---
 
-### Challenge Lab 3: Hospitality Wellness & Sleep Research Analysis
+### Challenge Lab 3: Caffeine & Sleep Analysis
 
-**Objective:** Leverage NotebookLM's **Discover Sources** feature to aggregate research, analyze physiological sleep data, and propose an evidence-backed guest wellness plan.
+**Objective:** Leverage NotebookLM's **Discover Sources** feature to gather research and correlate clinical data to propose a data-backed wellness plan.
 
 #### Step-by-Step Exercise:
 
 1. **Workspace Setup**:
    - Open **NotebookLM** → click **Create a new Notebook**.
-   - Name the notebook: `Hospitality Wellness & Sleep Analysis`.
+   - Name the notebook: `Sleep Analysis`.
    - Click **Add Source** → **Link** → paste: `https://www.sleepfoundation.org/nutrition/caffeine-and-sleep`.
    - Click **Add Source** → **Discover sources** → type: `The physiological effects of caffeine on adenosine receptors and sleep cycles` → select a generated paper → click **Insert**.
    - Click **Add Source** → **Discover sources** again → type: `Evidence-based sleep hygiene tips for adults` → select a source → click **Insert**.
@@ -1010,15 +1010,15 @@ These optional challenge labs provide step-by-step bonus practice for participan
    - In the chat box, type: `Based on the physiological effects described in the sources, explain the exact biological mechanism (e.g., adenosine receptors) of why late-day caffeine intake disrupts sleep architecture.`
    - Press Enter → click **Save to note**.
 
-3. **Guest Wellness Plan**:
-   - In the chat box, type: `Write a friendly, personalized 3-point wellness plan for a hypothetical hotel guest who frequently drinks coffee at 5 PM to improve their sleep hygiene. Base the recommendations specifically on evidence from the discovered sources.`
+3. **Wellness Plan**:
+   - In the chat box, type: `Write a friendly, personalized 3-point wellness plan for a hypothetical client who frequently drinks coffee at 5 PM to improve their sleep hygiene. Base the recommendations specifically on evidence from the discovered sources.`
    - Press Enter → click **Save to note**.
 
 4. **Study Summary Brief**:
    - In the chat box, type: `Create a concise briefing document summarizing the key takeaways from the clinical overview we discovered regarding caffeine's impact on REM and deep sleep.`
    - Press Enter → click **Save to note**.
 
-5. **Guest Audio Overview**:
+5. **Client Audio Overview**:
    - In the Studio panel, locate **Audio Overview**.
    - Click **Customize** (three dots icon).
    - In the prompt box, type: `Focus the discussion on explaining how adenosine receptors work and present our new 3-point wellness plan for the client.`
