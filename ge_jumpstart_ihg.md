@@ -859,7 +859,7 @@ Grand Horizon Conference Inquiry Notes:
 
    <br>
 
-   <img src="jumpstart_images/image-50_bordered.png" width="80%" alt="Pin Agent to Navigation Sidebar" />
+   <img src="jumpstart_images/task11_agent_builder_pin_agent.png" width="80%" alt="Pin Agent to Navigation Sidebar" />
 
 <br><br>
 
