@@ -482,6 +482,15 @@ The **Deep Research** agent performs extensive multi-step web and company search
 
 <br><br>
 
+> [!TIP]
+> **🎨 Pro Tip for Creative & Brand Teams (Advanced Photography Prompting)**  
+> Try this cinema-grade photography prompt to amaze your brand designers:
+> ```text
+> Photorealistic 8k architectural photograph of an overwater bungalow villa at InterContinental Bora Bora Resort at sunset. Warm golden hour lighting casting long soft shadows across polished teak wood decking. Modern infinity pool blending into turquoise lagoon waters. Shallow depth of field, f/2.8 lens aperture, 35mm Hasselblad camera perspective, cinematic color grading with rich blue and warm orange tones, high detail on water ripples and palm leaf texture.
+> ```
+
+<br><br>
+
 ### Part B: Multimodal Image Generation (Infographic from PDF)
 1. Download sample file: [`data/ge_sample_data_for_workshop/acme-co/Web Design RFP.pdf`](data/ge_sample_data_for_workshop/acme-co/Web%20Design%20RFP.pdf).
 2. Start **New Chat**, click **+**, upload PDF.
@@ -516,6 +525,15 @@ The **Deep Research** agent performs extensive multi-step web and company search
 <br><br>
 
 3. Download the generated 8-second video.
+
+<br><br>
+
+> [!TIP]
+> **🎨 Pro Tip for Creative & Media Teams (Advanced Veo 3.1 Prompting)**  
+> Try this macro slow-motion video prompt:
+> ```text
+> Cinematic macro close-up video of an expert mixologist crafting a signature smoked cocktail at a Regent Hotels rooftop sky bar at night. Slow-motion 120fps camera move: liquid pour over a crystal clear sphere ice block, subtle smoke rising from wood chips, city skyline bokeh lights blurred gracefully in the background, sharp focus on water droplets on the crystal glass, dynamic warm lighting.
+> ```
 
 <br><br>
 

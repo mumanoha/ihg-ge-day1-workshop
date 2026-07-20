@@ -122,3 +122,27 @@ Context: Preparing a business proposal for expanding single-use plastic eliminat
 Task: Draft a 1-page executive pitch outlining financial ROI, carbon footprint reduction, guest brand perception benefits, and implementation timeline over 6 months.
 Format: Bulleted proposal with clear headers and measurable target KPIs.
 ```
+
+---
+
+## 🎨 6. Creative & Brand Media Generation (Imagen 3 & Veo 3.1 Prompts)
+
+### 6.1 Ultra-Realistic Luxury Resort Imagery (Text-to-Image / Imagen 3)
+```text
+Photorealistic 8k architectural photograph of an overwater bungalow villa at InterContinental Bora Bora Resort at sunset. Warm golden hour lighting casting long soft shadows across polished teak wood decking. Modern infinity pool blending into turquoise lagoon waters. Shallow depth of field, f/2.8 lens aperture, 35mm Hasselblad camera perspective, cinematic color grading with rich blue and warm orange tones, high detail on water ripples and palm leaf texture.
+```
+
+### 6.2 Boutique Interior Design & Mood Lighting (Text-to-Image / Imagen 3)
+```text
+Architectural shot of a vibrant luxury lounge bar at Kimpton Hotel Eventi in New York. Industrial chic aesthetic with exposed brickwork, custom plush velvet seating in deep emerald green and bronze tones, warm Edison bulb pendant lighting, ambient bar glow. Professional architectural photography style, 24mm wide-angle lens, perfectly straight vertical lines, soft fill light, high resolution, filmic grain texture.
+```
+
+### 6.3 Cinematic Time-Lapse Lobby Video (Text-to-Video / Veo 3.1)
+```text
+A high-resolution cinematic slow-motion video of a luxury InterContinental hotel lobby entrance at dusk. Smooth camera motion: a gradual forward dolly shot tracking guests arriving in formal attire. Warm interior lighting with a grand crystal chandelier reflecting on polished marble floors. Volumetric evening light streaming through floor-to-ceiling glass windows, realistic motion blur, 4k ultra-HD quality, 24fps film aesthetic.
+```
+
+### 6.4 Signature Mixology & Culinary Close-Up Video (Text-to-Video / Veo 3.1)
+```text
+Cinematic macro close-up video of an expert mixologist crafting a signature smoked cocktail at a Regent Hotels rooftop sky bar at night. Slow-motion 120fps camera move: liquid pour over a crystal clear sphere ice block, subtle smoke rising from wood chips, city skyline bokeh lights blurred gracefully in the background, sharp focus on water droplets on the crystal glass, dynamic warm lighting.
+```
