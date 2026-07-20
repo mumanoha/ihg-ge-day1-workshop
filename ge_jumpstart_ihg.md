@@ -8,7 +8,7 @@
   <li><a href="#section-3">Task 2: Configuring Personalization and Appearance</a></li>
   <li><a href="#section-4">Task 3: Web Search, File Analysis & Data Handling</a></li>
   <li><a href="#section-5">Task 4: Searching Internal Company Data (Enterprise Data Stores)</a></li>
-  <li><a href="#section-6">Task 5: Using @ Mentions and In-Line Tool Shortcuts</a></li>
+  <li><a href="#section-6">Task 5: Using @ Mentions to Invoke Agents Directly</a></li>
   <li><a href="#section-7">Task 6: Strategic Brainstorming & Ideation with Gemini Chat</a></li>
   <li><a href="#section-8">Task 7: Conducting Deep Research</a></li>
   <li><a href="#section-9">Task 8: Generating Media (Images and Video)</a></li>
@@ -355,22 +355,26 @@ Gemini Enterprise securely queries enterprise connectors (Google Cloud Storage, 
 
 <div id='section-6'></div>
 
-# Task 5: Using @ Mentions and In-Line Tool Shortcuts
+# Task 5: Using @ Mentions to Invoke Agents Directly
 
-The **`@` mention** feature allows you to instantly reference enterprise data stores, uploaded documents, tools, or specialized agents directly within any chat stream without switching menus.
+In Gemini Enterprise, typing **`@`** in the Omnibar opens an interactive shortcut menu specifically for invoking **Agents** (such as *Deep Research*, *Data Insights Agent*, or custom published agents).
 
 1. Click **New Chat**.
-2. In the Omnibar, type **`@`**.
-3. Notice the interactive auto-complete menu pop up showing available connectors, tools, and agents (`@Company data`, `@Deep Research`, `@Google Search`, etc.).
-4. Type **`@Company data`** followed by: `Find our internal policies on corporate travel discounts for IHG employees.`
+2. In the central Omnibar, type **`@`**.
+3. Observe the pop-up menu displaying the **Agents** list (`Deep Research`, `Data Insights Agent`, etc.).
 
    <br>
 
-   <img src="jumpstart_images/task5_at_mention.png" width="80%" alt="@ Mention Agent in Omnibar" />
+   <img src="jumpstart_images/task5_at_mention_agents.png" width="80%" alt="@ Mention Agents Popup Menu" />
 
 <br><br>
 
-5. Observe how typing `@` lets you invoke specific data stores or tools seamlessly within your prompt conversation without navigating away.
+4. Select **`@Deep Research`** (or type `@Deep Research`).
+
+   > [!NOTE]
+   > **UI Distinction**: The `@` symbol is reserved exclusively for invoking **Agents**. Data sources (such as *Company data*) and grounding features (such as *Google Search*) are managed via the **Tools** icon (`+` / sliders / database icons) at the bottom left of the Omnibar.
+
+5. Observe how typing `@` allows you to seamlessly invoke specialized agents directly within an active chat prompt without navigating through sidebar menus.
 
 <br><br>
 
