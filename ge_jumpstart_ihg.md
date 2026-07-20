@@ -863,6 +863,33 @@ Grand Horizon Conference Inquiry Notes:
 
 <br><br>
 
+8. **Share your Custom Agent with Team Members**:
+   - In the **Agents** gallery under **Your agents**, locate your agent card (**IHG Group Sales Followup Agent**).
+   - Click the **three dots** menu icon → select **Share**.
+
+   <br>
+
+   <img src="jumpstart_images/task11_agent_share_dropdown.png" width="80%" alt="Select Share from Agent Options Menu" />
+
+<br><br>
+
+   - In the **Share** modal, type your colleague's email address (e.g. `jane@muthumano.altostrat.com` or your teammate's IHG email).
+
+   <br>
+
+   <img src="jumpstart_images/task11_agent_share_modal_email.png" width="80%" alt="Enter Teammate Email in Share Agent Modal" />
+
+<br><br>
+
+   - Review access permissions (e.g., **Viewer**). *Note: Sharing your agent allows teammates to interact with both the agent and the underlying data sources it uses.*
+   - Click **Done** (or **Copy link** to send directly in chat).
+
+   <br>
+
+   <img src="jumpstart_images/task11_agent_share_modal_viewer.png" width="80%" alt="Confirm Agent Access Permissions and Click Done" />
+
+<br><br>
+
 <div class="nav-link"><a href="#top">↑ Back to Top</a></div>
 
 ---
