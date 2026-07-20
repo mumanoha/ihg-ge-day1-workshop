@@ -370,7 +370,10 @@ Seamlessly bring files, colleagues, or specialized agents directly into chat usi
 
 <br><br>
 
-5. Click submit. Notice how Deep Research takes over directly inside the chat window.
+5. Click submit and review the generated research plan, then click **Start Research**.
+
+   > [!NOTE]
+   > **Asynchronous Execution**: Once you click **Start Research**, the Deep Research agent performs multi-step web and document synthesis in the background. Because this comprehensive research process takes several minutes to complete, **proceed directly to the next task now**. We will return to review the completed report in **Task 12: Review Submitted Tasks**.
 
 <br><br>
 
