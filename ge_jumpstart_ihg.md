@@ -619,7 +619,7 @@ The **Deep Research** agent performs extensive multi-step web and company search
 
    <br>
    
-   <img src="jumpstart_images/task9_notebooklm.png" width="80%" alt="NotebookLM Workspace Dashboard" />
+   <img src="jumpstart_images/task9_notebooklm_enterprise_landing.png" width="80%" alt="Welcome to NotebookLM Enterprise Landing Screen" />
 
 <br><br>
 
