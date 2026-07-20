@@ -749,7 +749,13 @@ The **Deep Research** agent performs extensive multi-step web and company search
 
 <br><br>
 
-4. Click **Schedule** → **+ Add schedule** (Daily, 08:00 AM).
+4. **Configure Agent Schedule**:
+   - Click the **Schedule** tab at the top of the canvas → click **+ Add schedule**.
+   - **Repeat frequency**: Select **Daily**.
+   - **Start at time**: Set to `09:00 AM`.
+   - **Timezone**: Select `(GMT-04:00) Eastern Time - New York` (or your local timezone).
+   - **Triggering prompt**: Type: `Generate the daily hospitality briefing for today.`
+   - Click **Add schedule**.
 
    <br>
 
