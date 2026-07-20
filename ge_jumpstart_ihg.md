@@ -427,7 +427,10 @@ The **Deep Research** agent performs extensive multi-step web and company search
 <br><br>
 
 3. **Review Research Plan**: Review generated plan, edit if desired, and click **Start Research**.
-4. Wait a few minutes while Gemini searches hundreds of sources, refines questions, and synthesizes a multi-page cited report.
+4. **Asynchronous Execution**:
+
+   > [!NOTE]
+   > **Asynchronous Execution**: Once you click **Start Research**, Deep Research performs multi-step web and document synthesis in the background. Because this comprehensive research process takes several minutes to complete, **proceed directly to the next task now**. We will return to review the completed report in **Task 12: Review Submitted Tasks**.
 
    <br>
 
