@@ -8,7 +8,7 @@
   <li><a href="#section-3">Task 2: Configuring Personalization and Appearance</a></li>
   <li><a href="#section-4">Task 3: Web Search, File Analysis & Data Handling</a></li>
   <li><a href="#section-5">Task 4: Searching Internal Company Data (Enterprise Data Stores)</a></li>
-  <li><a href="#section-6">Task 5: Using @ Mentions and Calling Agents Directly</a></li>
+  <li><a href="#section-6">Task 5: Using @ Mentions and In-Line Tool Shortcuts</a></li>
   <li><a href="#section-7">Task 6: Strategic Brainstorming & Ideation with Gemini Chat</a></li>
   <li><a href="#section-8">Task 7: Conducting Deep Research</a></li>
   <li><a href="#section-9">Task 8: Generating Media (Images and Video)</a></li>
@@ -355,14 +355,14 @@ Gemini Enterprise securely queries enterprise connectors (Google Cloud Storage, 
 
 <div id='section-6'></div>
 
-# Task 5: Using @ Mentions and Calling Agents Directly
+# Task 5: Using @ Mentions and In-Line Tool Shortcuts
 
-Seamlessly bring files, colleagues, or specialized agents directly into chat using `@`.
+The **`@` mention** feature allows you to instantly reference enterprise data stores, uploaded documents, tools, or specialized agents directly within any chat stream without switching menus.
 
 1. Click **New Chat**.
 2. In the Omnibar, type **`@`**.
-3. Select or type **`@Deep Research`**.
-4. Append your research query: `The impact of AI on hotel guest satisfaction and customer service automation`.
+3. Notice the interactive auto-complete menu pop up showing available connectors, tools, and agents (`@Company data`, `@Deep Research`, `@Google Search`, etc.).
+4. Type **`@Company data`** followed by: `Find our internal policies on corporate travel discounts for IHG employees.`
 
    <br>
 
@@ -370,10 +370,7 @@ Seamlessly bring files, colleagues, or specialized agents directly into chat usi
 
 <br><br>
 
-5. Click submit and review the generated research plan, then click **Start Research**.
-
-   > [!NOTE]
-   > **Asynchronous Execution**: Once you click **Start Research**, the Deep Research agent performs multi-step web and document synthesis in the background. Because this comprehensive research process takes several minutes to complete, **proceed directly to the next task now**. We will return to review the completed report in **Task 12: Review Submitted Tasks**.
+5. Observe how typing `@` lets you invoke specific data stores or tools seamlessly within your prompt conversation without navigating away.
 
 <br><br>
 
@@ -418,7 +415,17 @@ The **Deep Research** agent performs extensive multi-step web and company search
 
 <br><br>
 
-2. Enter prompt: `Compare the effectiveness of different marketing and loyalty strategies for IHG luxury brands (InterContinental, Regent, Kimpton) vs IHG essential brands (Holiday Inn, Holiday Inn Express).`
+2. **Choose your Research Scenario**: Select **one** of the two hospitality research topics below to submit:
+
+   - **Option 1 (Hotel Technology & AI Automation)**:
+     ```text
+     The impact of AI on hotel guest satisfaction and customer service automation.
+     ```
+
+   - **Option 2 (IHG Loyalty & Brand Strategy)**:
+     ```text
+     Compare the effectiveness of different marketing and loyalty strategies for IHG luxury brands (InterContinental, Regent, Kimpton) vs IHG essential brands (Holiday Inn, Holiday Inn Express).
+     ```
 
    <br>
 
@@ -426,11 +433,11 @@ The **Deep Research** agent performs extensive multi-step web and company search
 
 <br><br>
 
-3. **Review Research Plan**: Review generated plan, edit if desired, and click **Start Research**.
+3. **Review & Trigger Research Plan**: Review the generated research plan, edit topics if desired, and click **Start Research**.
 4. **Asynchronous Execution**:
 
    > [!NOTE]
-   > **Asynchronous Execution**: Once you click **Start Research**, Deep Research performs multi-step web and document synthesis in the background. Because this comprehensive research process takes several minutes to complete, **proceed directly to the next task now**. We will return to review the completed report in **Task 12: Review Submitted Tasks**.
+   > **Asynchronous Execution**: Once you click **Start Research**, Deep Research performs multi-step web and document synthesis in the background. Because this comprehensive research process takes several minutes to complete, **proceed directly to the next task now**. We will return to review your completed report in **Task 12: Review Submitted Tasks**.
 
    <br>
 
