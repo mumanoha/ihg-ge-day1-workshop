@@ -782,8 +782,8 @@ The **Deep Research** agent performs extensive multi-step web and company search
 7. **Test the Published Agent**:
    - Select **Agents** on the left navigation panel.
    - Click on your newly created agent (**Hospitality Briefing Agent**).
-   - Make sure the **Google Search** connector is enabled under **Tools**, then type: `I need a quick news summary on global economic trends and cybersecurity threats over the last 48 hours.`
-   - Observe how your custom agent retrieves real-time grounded search results and formats the briefing!
+   - Make sure the **Google Search** connector is enabled under **Tools**, then type: `Provide today's briefing on luxury hotel market performance, guest experience technology trends, and competitor loyalty program updates over the last 48 hours.`
+   - Observe how your custom agent retrieves real-time grounded search results and formats the hospitality briefing as a clean bulleted list!
 
 <br><br>
 
