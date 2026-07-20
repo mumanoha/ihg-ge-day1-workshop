@@ -53,6 +53,18 @@ Before we begin, please ensure you are logged into your provided Google account 
 
 <br>
 
+### 💡 IHG Hospitality Prompt Library Cheat Sheet
+Need inspiration or specialized prompts for your department?  
+Open the **[`ihg_hospitality_prompts.md`](ihg_hospitality_prompts.md)** file in your repository tab anytime during the workshop. It contains **20+ ready-to-use copy-paste prompts** organized by IHG business department:
+- 🏨 **[Hotel Operations & Guest Experience](ihg_hospitality_prompts.md#1-hotel-operations--guest-experience)**: VIP Welcome letters, service recovery emails, front desk shift handovers.
+- 💳 **[IHG One Rewards & Loyalty Marketing](ihg_hospitality_prompts.md#2-ihg-one-rewards--loyalty-marketing)**: Seasonal campaign copy, tier benefits comparison tables.
+- 🏢 **[Franchise Support & Hotel Development](ihg_hospitality_prompts.md#3-franchise-support--hotel-development)**: Owner onboarding FAQs, hotel asset manager performance summaries.
+- 👥 **[Human Resources & Staff Training](ihg_hospitality_prompts.md#4-human-resources--staff-training)**: Housekeeping SOP checklists, employee recognition announcements.
+- 💻 **[Corporate Strategy & IT Operations](ihg_hospitality_prompts.md#5-corporate-strategy--it-operations)**: IT incident reports, sustainability business proposals.
+- 🎨 **[Creative Media & Veo 3.1 Directing](ihg_hospitality_prompts.md#6-creative--brand-media-generation-imagen-3--veo-31-prompts)**: Cinema-grade photo prompts and timestamped `[00:00-00:08]` video directing formulas.
+
+<br>
+
 ### 📊 Gemini Enterprise Quota & Allocation Limits (Standard Edition)
 
 IHG is provisioned on **Gemini Enterprise Standard Edition**. Each user license includes dedicated daily/monthly quotas, which are **pooled across all licensed users** in your project for maximum flexibility:
@@ -84,7 +96,8 @@ IHG is provisioned on **Gemini Enterprise Standard Edition**. Each user license 
 Let's start by getting familiar with the Gemini Enterprise interface and foundational tools.
 
 > [!NOTE]
-> **Standard Edition Quota Note**: Standard Edition provides **160 Assistant queries per user per day** (pooled across all project licenses).
+> **Standard Edition Quota Note**: Standard Edition provides **160 Assistant queries per user per day** (pooled across all project licenses).  
+> **Prompt Reference**: You can find additional operational & guest service prompts in the **[IHG Prompt Library (`ihg_hospitality_prompts.md`)](ihg_hospitality_prompts.md#1-hotel-operations--guest-experience)**.
 
 1. **Introduce the Chat Assistant:**
    * In Gemini Enterprise, you can chat about web search results, enterprise data stores, and uploaded content. The assistant provides summaries, answers questions through natural language, and allows exporting answers to Docs, Sheets, or clipboard.
@@ -420,6 +433,9 @@ In Gemini Enterprise, typing **`@`** in the Omnibar opens an interactive shortcu
 
 Explore creative options, campaign angles, and multi-option evaluations using structured ideation prompts in Gemini Chat.
 
+> [!NOTE]
+> **Prompt Reference**: Browse additional strategic, marketing, and loyalty campaign prompts in the **[IHG Prompt Library (`ihg_hospitality_prompts.md`)](ihg_hospitality_prompts.md#2-ihg-one-rewards--loyalty-marketing)**.
+
 1. Start a **New Chat**.
 2. Type: `Persona: You are a Hospitality Innovation Consultant. Task: Brainstorm 5 creative gamification ideas to increase IHG One Rewards app engagement among Gen Z travelers. Evaluate each idea on Feasibility (1-10), Guest Value (1-10), and Brand Alignment.`
 
@@ -495,7 +511,8 @@ The **Deep Research** agent performs extensive multi-step web and company search
 ### Part A: Text-to-Image Generation
 
 > [!NOTE]
-> **Standard Edition Quota Note**: Image generation draws from your **5 images per user per day** allowance (pooled across project licenses).
+> **Standard Edition Quota Note**: Image generation draws from your **5 images per user per day** allowance (pooled across project licenses).  
+> **Prompt Reference**: View full cinema-grade Imagen 3 photography prompts in the **[IHG Prompt Library (`ihg_hospitality_prompts.md`)](ihg_hospitality_prompts.md#6-creative--brand-media-generation-imagen-3--veo-31-prompts)**.
 
 1. Click **New Chat** → Click the **Tools** icon (`+` / sliders icon) → Select **Create images** (Image Generator tool).
 
@@ -549,7 +566,8 @@ The **Deep Research** agent performs extensive multi-step web and company search
 ### Part C: Video Generation with Veo
 
 > [!NOTE]
-> **Standard Edition Quota Note**: Veo 3.1 video generation draws from your **2 video generation requests per user per day** allowance (pooled across project licenses).
+> **Standard Edition Quota Note**: Veo 3.1 video generation draws from your **2 video generation requests per user per day** allowance (pooled across project licenses).  
+> **Prompt Reference**: View full Veo 3.1 timestamped video directing formulas in the **[IHG Prompt Library (`ihg_hospitality_prompts.md`)](ihg_hospitality_prompts.md#7-veo-31-master-video-directing-guide-official-deepmind--google-cloud-formula)**.
 
 1. Click **New Chat** → Click the **Tools** icon (`+` / sliders icon) → Select **Generate videos with Veo** tool (**Create videos (Veo 3.1)**).
 
@@ -677,7 +695,8 @@ The **Deep Research** agent performs extensive multi-step web and company search
 # Task 10: Build an Agent from a Prompt with Agent Designer
 
 > [!NOTE]
-> **Standard Edition Quota Note**: Creating and publishing custom agents draws from your **1 agent created per user per day** allowance (pooled across project licenses).
+> **Standard Edition Quota Note**: Creating and publishing custom agents draws from your **1 agent created per user per day** allowance (pooled across project licenses).  
+> **Prompt Reference**: Browse additional corporate strategy & IT agent prompt templates in the **[IHG Prompt Library (`ihg_hospitality_prompts.md`)](ihg_hospitality_prompts.md#5-corporate-strategy--it-operations)**.
 
 1. Sidebar → **Agents** → **+ New agent**.
 
