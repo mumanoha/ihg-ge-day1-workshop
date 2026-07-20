@@ -755,7 +755,7 @@ The **Deep Research** agent performs extensive multi-step web and company search
    - **Start at time**: Set to `09:00 AM`.
    - **Timezone**: Select `(GMT-04:00) Eastern Time - New York` (or your local timezone).
    - **Triggering prompt**: Type: `Generate the daily hospitality briefing for today.`
-   - Click **Add schedule**.
+   - Click **Save** (or **Add schedule**).
 
    <br>
 
@@ -763,7 +763,18 @@ The **Deep Research** agent performs extensive multi-step web and company search
 
 <br><br>
 
-5. Click **Create** to deploy your scheduled daily briefing agent.
+5. **Preview Scheduled Execution**:
+   - Under **Agent Schedules**, locate your newly created schedule card (`Daily at 9:00 AM Draft`).
+   - Hover over the schedule card and click the **Play** button (**Run in preview**).
+   - This lets you instantly test and preview how the scheduled briefing prompt executes without waiting until 9:00 AM!
+
+   <br>
+
+   <img src="jumpstart_images/task10_agent_builder_run_in_preview.png" width="80%" alt="Run Scheduled Agent in Preview Mode" />
+
+<br><br>
+
+6. Click **Create** (blue button on top right) to deploy your scheduled daily briefing agent.
 
 <br><br>
 
