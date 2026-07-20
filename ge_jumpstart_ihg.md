@@ -474,7 +474,11 @@ The **Deep Research** agent performs extensive multi-step web and company search
 
 <br><br>
 
-3. Download or copy the generated image.
+3. Download or copy the generated image (Click **Yes, download** on the enterprise data exfiltration warning dialog if prompted).
+
+   <br>
+
+   <img src="jumpstart_images/task8_download_security_warning.png" width="80%" alt="Enterprise Download Security Warning Dialog" />
 
 <br><br>
 
