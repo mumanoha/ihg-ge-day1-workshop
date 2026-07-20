@@ -753,7 +753,7 @@ The **Deep Research** agent performs extensive multi-step web and company search
 
    <br>
 
-   <img src="jumpstart_images/image-44_bordered.png" width="80%" alt="Add Agent Schedule" />
+   <img src="jumpstart_images/task10_agent_builder_schedule.png" width="80%" alt="Add Agent Schedule Settings Screen" />
 
 <br><br>
 
