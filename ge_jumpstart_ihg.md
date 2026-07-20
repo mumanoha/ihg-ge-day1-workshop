@@ -309,8 +309,21 @@ Gemini Enterprise can analyze public web data, process files, and format data fo
 Gemini Enterprise securely queries enterprise connectors (Google Cloud Storage, Drive, BigQuery, SharePoint, ServiceNow). Your environment has pre-indexed company data stores.
 
 1. Click **New Chat**.
-2. Click **Tools** → Select **Search Company Data**.
-3. Enter prompt: `Who is the CEO of Cymbal Bank?` (or query your connected company data store).
+2. Click **Tools** → Select **Search Company Data** (or `@Company data`).
+3. **Configure Connectors**: Click the database/connectors icon inside the **Company data** pill. 
+   - **Toggle OFF** all other search tools (such as Google Search and external 3rd-party connectors).
+   - **Toggle ON** strictly **Cloud Storage** (where the pre-uploaded workshop sample dataset is stored).
+
+   > [!IMPORTANT]
+   > **Connector Configuration Note**: It is critical to disable all other connectors and Google Search during this exercise so Gemini Enterprise searches exclusively within your pre-uploaded Cloud Storage bucket. If Google Search or other connectors remain active, Gemini may retrieve general internet or external system answers instead of grounding strictly in your lab's sample data store.
+
+   <br>
+
+   <img src="jumpstart_images/task4_cloud_storage_connector.png" width="80%" alt="Disable all connectors except Cloud Storage" />
+
+<br><br>
+
+4. Enter prompt: `Who is the CEO of Cymbal Bank?` (or query your connected company data store).
 
    <br>
 
@@ -318,7 +331,7 @@ Gemini Enterprise securely queries enterprise connectors (Google Cloud Storage, 
 
 <br><br>
 
-4. Review synthesized answer grounded directly in internal company files with citations.
+5. Review synthesized answer grounded directly in internal company files with citations.
 
    <br>
 
@@ -326,9 +339,9 @@ Gemini Enterprise securely queries enterprise connectors (Google Cloud Storage, 
 
 <br><br>
 
-5. Click **New Chat** → Ensure **Search Company Data** is active.
-6. Enter prompt: `Summarize the customer sentiment pie chart from our uploaded hotel operational reports.`
-7. Observe how Gemini interprets visual and text data from internal enterprise files.
+6. Click **New Chat** → Ensure **Search Company Data** is active (with only **Cloud Storage** enabled).
+7. Enter prompt: `Summarize the customer sentiment pie chart from our uploaded hotel operational reports.`
+8. Observe how Gemini interprets visual and text data from internal enterprise files.
 
    <br>
 
