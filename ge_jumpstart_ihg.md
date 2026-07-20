@@ -637,7 +637,7 @@ The **Deep Research** agent performs extensive multi-step web and company search
 
    <br>
 
-   <img src="jumpstart_images/image-30_bordered.png" width="80%" alt="Import Sources into NotebookLM" />
+   <img src="jumpstart_images/task9_notebooklm_sources_imported.png" width="80%" alt="Import Sources into NotebookLM" />
 
 <br><br>
 
