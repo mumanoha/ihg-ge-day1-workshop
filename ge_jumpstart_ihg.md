@@ -476,10 +476,6 @@ The **Deep Research** agent performs extensive multi-step web and company search
 
 3. Download or copy the generated image.
 
-   <br>
-
-   <img src="jumpstart_images/image-26_bordered.png" width="80%" alt="Download Generated Image" />
-
 <br><br>
 
 ### Part B: Multimodal Image Generation (Infographic from PDF)
