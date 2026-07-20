@@ -766,7 +766,7 @@ The **Deep Research** agent performs extensive multi-step web and company search
 5. **Preview Scheduled Execution**:
    - Under **Agent Schedules**, locate your newly created schedule card (`Daily at 9:00 AM Draft`).
    - Hover over the schedule card and click the **Play** button (**Run in preview**).
-   - This lets you instantly test and preview how the scheduled briefing prompt executes without waiting until 9:00 AM!
+   - You'll see the execution result in the agent draft's **Preview** tab.
 
    <br>
 
@@ -774,7 +774,16 @@ The **Deep Research** agent performs extensive multi-step web and company search
 
 <br><br>
 
-6. Click **Create** (blue button on top right) to deploy your scheduled daily briefing agent.
+6. **Create & Deploy Agent**:
+   - To save your agent for future use, click **Create** in the upper right. *(Note: This scheduled agent will now run daily based on the schedule you set.)*
+
+<br><br>
+
+7. **Test the Published Agent**:
+   - Select **Agents** on the left navigation panel.
+   - Click on your newly created agent (**Hospitality Briefing Agent**).
+   - Make sure the **Google Search** connector is enabled under **Tools**, then type: `I need a quick news summary on global economic trends and cybersecurity threats over the last 48 hours.`
+   - Observe how your custom agent retrieves real-time grounded search results and formats the briefing!
 
 <br><br>
 
