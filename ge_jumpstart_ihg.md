@@ -499,7 +499,14 @@ The **Deep Research** agent performs extensive multi-step web and company search
 <br><br>
 
 ### Part C: Video Generation with Veo
-1. Click **New Chat** → Select **Generate videos with Veo** tool (**Create videos (Veo 3.1)**).
+1. Click **New Chat** → Click the **Tools** icon (`+` / sliders icon) → Select **Generate videos with Veo** tool (**Create videos (Veo 3.1)**).
+
+   <br>
+
+   <img src="jumpstart_images/task8_tools_create_videos.png" width="80%" alt="Tools menu selecting Create videos (Veo 3.1)" />
+
+<br><br>
+
 2. Enter prompt: `A cinematic time-lapse of a bustling luxury hotel lobby at dusk, warm lighting, elegant chandelier, guests arriving, smooth camera motion.`
 
    <br>
