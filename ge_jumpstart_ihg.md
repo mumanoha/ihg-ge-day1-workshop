@@ -3,7 +3,7 @@
 <div class="toc-container">
 <h3>Table of Contents — IHG Gemini Enterprise Day 1 Workshop</h3>
 <ul>
-  <li><a href="#section-1">Welcome & Prerequisites</a></li>
+  <li><a href="#section-1">Welcome, Prerequisites & Edition Quotas</a></li>
   <li><a href="#section-2">Task 1: Navigating the Interface & Basic Assistant Features</a></li>
   <li><a href="#section-3">Task 2: Configuring Personalization and Appearance</a></li>
   <li><a href="#section-4">Task 3: Web Search, File Analysis & Data Handling</a></li>
@@ -51,6 +51,26 @@ Before we begin, please ensure you are logged into your provided Google account 
 > **Enterprise Privacy Boundary**  
 > Your prompts, uploaded files, and internal company search queries are strictly confidential and protected under enterprise security controls. They are **never used to train** public Google AI models.
 
+<br>
+
+### 📊 Gemini Enterprise Quota & Allocation Limits (Standard Edition)
+
+IHG is provisioned on **Gemini Enterprise Standard Edition**. Feature quotas are **pooled across all licensed users** within your Google Cloud project and location:
+
+| Feature / Product | Standard Edition Quota (Per User License) | Quota Pooling & Usage Behavior |
+| :--- | :--- | :--- |
+| **Assistant Queries** (Chat, Web Search, Code, File Uploads) | **160 queries / day** | Shared daily pool across all IHG project licenses |
+| **Storage & Data Indexing** | **30 GiB / month** | Shared monthly pool across all project users |
+| **Deep Research Agent** | **3 requests / day** | Shared daily pool across all project users |
+| **Image Generation** (Imagen 3 / Create Images) | **5 images / day** | Shared daily pool across all project users |
+| **Video Generation** (Veo 3.1 / Create Videos) | **2 videos / day** | Shared daily pool across all project users |
+| **Agent Designer (Create & Publish)** | **1 agent / day** | Shared daily pool across all project users |
+| **NotebookLM / Gemini Notebook** | Notebook Enterprise Limits | Shared pool across project users |
+
+> [!IMPORTANT]
+> **Understanding Quota Pooling**:  
+> In Standard Edition, quotas do not hard-cap individual users. Instead, per-user limits are multiplied by total licensed users to create a **shared project pool**. For example, 50 licensed IHG users share a daily pool of **8,000 Assistant queries**, **150 Deep Research runs**, **250 Image generations**, and **100 Veo Video generations** per day. Power users can draw freely from this shared pool!
+
 <br><br>
 
 <div class="nav-link"><a href="#top">↑ Back to Top</a></div>
@@ -62,6 +82,9 @@ Before we begin, please ensure you are logged into your provided Google account 
 # Task 1: Navigating the Interface & Basic Assistant Features
 
 Let's start by getting familiar with the Gemini Enterprise interface and foundational tools.
+
+> [!NOTE]
+> **Standard Edition Quota Note**: Assistant chat queries, local translations, and code generation draw from IHG's shared pool of **160 queries per user per day**.
 
 1. **Introduce the Chat Assistant:**
    * In Gemini Enterprise, you can chat about web search results, enterprise data stores, and uploaded content. The assistant provides summaries, answers questions through natural language, and allows exporting answers to Docs, Sheets, or clipboard.
@@ -219,6 +242,9 @@ Let's start by getting familiar with the Gemini Enterprise interface and foundat
 
 Gemini Enterprise can analyze public web data, process files, and format data for export.
 
+> [!NOTE]
+> **Standard Edition Quota Note**: Grounded Google Search queries and document uploads draw from IHG's shared pool of **160 Assistant queries per user per day**.
+
 1. **Enable Google Search:**
    * In the Omnibar, click the **Tools** icon and ensure **Google Search** is enabled.
 
@@ -308,6 +334,9 @@ Gemini Enterprise can analyze public web data, process files, and format data fo
 
 Gemini Enterprise securely queries enterprise connectors (Google Cloud Storage, Drive, BigQuery, SharePoint, ServiceNow). Your environment has pre-indexed company data stores.
 
+> [!NOTE]
+> **Standard Edition Quota Note**: Internal enterprise search indexing and data storage draw from IHG's shared project limit of **30 GiB per user per month**.
+
 1. Click **New Chat**.
 2. Click **Tools** → Select **Search Company Data** (or `@Company data`).
 3. **Configure Connectors**: Click the database/connectors icon inside the **Company data** pill. 
@@ -358,6 +387,9 @@ Gemini Enterprise securely queries enterprise connectors (Google Cloud Storage, 
 # Task 5: Using @ Mentions to Invoke Agents Directly
 
 In Gemini Enterprise, typing **`@`** in the Omnibar opens an interactive shortcut menu specifically for invoking **Agents** (such as *Deep Research*, *Data Insights Agent*, or custom published agents).
+
+> [!NOTE]
+> **Standard Edition Quota Note**: Invoking `@Deep Research` draws from IHG's shared pool of **3 Deep Research requests per user per day**.
 
 1. Click **New Chat**.
 2. In the central Omnibar, type **`@`**.
@@ -411,6 +443,9 @@ Explore creative options, campaign angles, and multi-option evaluations using st
 
 The **Deep Research** agent performs extensive multi-step web and company search to build multi-page reports with citations.
 
+> [!NOTE]
+> **Standard Edition Quota Note**: Each Deep Research run draws from IHG's shared project pool of **3 Deep Research executions per user per day**.
+
 1. On the left sidebar under **Agents**, select **Deep Research**.
 
    <br>
@@ -458,6 +493,10 @@ The **Deep Research** agent performs extensive multi-step web and company search
 # Task 8: Generating Media (Images and Video)
 
 ### Part A: Text-to-Image Generation
+
+> [!NOTE]
+> **Standard Edition Quota Note**: Image generation draws from IHG's shared project pool of **5 images per user per day**.
+
 1. Click **New Chat** → Click the **Tools** icon (`+` / sliders icon) → Select **Create images** (Image Generator tool).
 
    <br>
@@ -508,6 +547,10 @@ The **Deep Research** agent performs extensive multi-step web and company search
 <br><br>
 
 ### Part C: Video Generation with Veo
+
+> [!NOTE]
+> **Standard Edition Quota Note**: Veo 3.1 video generation draws from IHG's shared project pool of **2 video generation requests per user per day**.
+
 1. Click **New Chat** → Click the **Tools** icon (`+` / sliders icon) → Select **Generate videos with Veo** tool (**Create videos (Veo 3.1)**).
 
    <br>
@@ -632,6 +675,9 @@ The **Deep Research** agent performs extensive multi-step web and company search
 <div id='section-11'></div>
 
 # Task 10: Build an Agent from a Prompt with Agent Designer
+
+> [!NOTE]
+> **Standard Edition Quota Note**: Creating and publishing custom agents draws from IHG's shared project pool of **1 agent created per user per day**.
 
 1. Sidebar → **Agents** → **+ New agent**.
 

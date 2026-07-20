@@ -188,3 +188,19 @@ Veo 3.1 supports **Timestamp Directing** to direct complete multi-shot sequences
 
 [00:05-00:08] Macro slow-motion close-up of a fresh hibiscus flower floating in the resort infinity pool with water ripples reflecting the setting sun. Shallow depth of field, 4k cinematic resolution, filmic color grade.
 ```
+
+---
+
+## 📊 8. Gemini Enterprise Standard Edition Quotas & Pooling Reference
+
+IHG is on **Gemini Enterprise Standard Edition**. Feature quotas are **pooled across all licensed users** within your Google Cloud project and location:
+
+| Feature / Product | Standard Edition Quota (Per License) | Pooling Behavior |
+| :--- | :--- | :--- |
+| **Assistant Queries** (Chat, Search, Code, Uploads) | **160 queries / day** | Shared daily pool across IHG project licenses |
+| **Storage & Data Indexing** | **30 GiB / month** | Shared monthly pool across all project users |
+| **Deep Research Agent** | **3 requests / day** | Shared daily pool across all project users |
+| **Image Generation** (Imagen 3) | **5 images / day** | Shared daily pool across all project users |
+| **Video Generation** (Veo 3.1) | **2 videos / day** | Shared daily pool across all project users |
+| **Agent Designer (Create & Publish)** | **1 agent / day** | Shared daily pool across all project users |
+| **NotebookLM / Gemini Notebook** | Notebook Enterprise Limits | Shared pool across project users |
