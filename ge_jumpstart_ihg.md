@@ -16,7 +16,7 @@
   <li><a href="#section-11">Task 10: Build an Agent from a Prompt with Agent Designer</a></li>
   <li><a href="#section-12">Task 11: Build an Agent with the Agent Designer Builder (Multi-Step Subagents)</a></li>
   <li><a href="#section-13">Task 12: Review Submitted Tasks</a></li>
-  <li><a href="#section-14">Task 13: NotebookLM Challenge Labs</a></li>
+  <li><a href="#section-14">Task 13: NotebookLM Challenge Labs (Self-Paced Practice)</a></li>
 </ul>
 </div>
 
@@ -910,35 +910,123 @@ Grand Horizon Conference Inquiry Notes:
 
 <div id='section-14'></div>
 
-# Task 13: NotebookLM Challenge Labs
+# Task 13: NotebookLM Challenge Labs (Self-Paced Practice)
 
-Select **one** of the three scenario challenges below to complete in NotebookLM:
+These optional challenge labs provide step-by-step bonus practice for participants who want to explore advanced multi-source research, custom Audio/Video Overviews, and strategy memo generation in **NotebookLM**.
 
-### Challenge Lab 1: Hospitality Market Analyst Briefing
-- **Scenario**: Analyze hotel industry earnings reports or IHG performance releases.
-- **Data Sources Needed**:
-  1. **YouTube Video**: Earnings Call Overview (`https://www.youtube.com/watch?v=mIK5-yi7a-c`)
-  2. **Document**: Earnings Press Release PDF
-  3. **Website**: IHG Corporate History (`https://www.ihgplc.com/en/about-us`)
-- **Objectives**: Setup notebook, create company milestone timeline, extract top 3 revenue drivers, identify risk factors, generate Audio Overview for executive commute.
+---
 
-### Challenge Lab 2: Hotel GTM Strategy & Loyalty Synthesis (Marketing & Sales)
-- **Scenario**: Synthesize marketing campaign data, hotel sales performance metrics, and guest customer feedback.
-- **Data Source Files Location**: All source files are located in your repository folder:
-  - 📄 [`data/ge_sample_data_for_workshop/xyz-sales-company/notebooklm/MARKETING_data.txt`](data/ge_sample_data_for_workshop/xyz-sales-company/notebooklm/MARKETING_data.txt)
-  - 📄 [`data/ge_sample_data_for_workshop/xyz-sales-company/notebooklm/SALES_data.txt`](data/ge_sample_data_for_workshop/xyz-sales-company/notebooklm/SALES_data.txt)
-  - 📄 [`data/ge_sample_data_for_workshop/xyz-sales-company/notebooklm/customer_feedback.txt`](data/ge_sample_data_for_workshop/xyz-sales-company/notebooklm/customer_feedback.txt)
-- **Objectives**:
-  1. **Workspace Setup**: Create a new notebook named "IHG GTM Strategy" and upload all three text files listed above.
-  2. **Cross-Department Synthesis**: Identify three specific areas where marketing campaigns directly influenced hotel bookings according to the data.
-  3. **Sentiment Analysis**: Summarize the top three recurring customer feedback themes.
-  4. **Strategy Memo Generation**: Generate a concise "Next Quarter Strategy Memo" for the GTM Director.
-  5. **Team Briefing Video**: Generate a Video Overview to share with the broader hotel commercial team.
+### Challenge Lab 1: Financial & Hospitality Market Analyst Briefing
 
-### Challenge Lab 3: Eco-Friendly Hospitality & Sustainability Research
-- **Scenario**: Research single-use plastic reduction and sustainable hotel operations across IHG properties.
-- **Data Sources Needed**: Use NotebookLM **Discover Sources** feature to aggregate 3 environmental studies on sustainable tourism.
-- **Objectives**: Grounded correlation of ROI & carbon footprint reduction, 3-point sustainability action plan, audio overview discussion.
+**Objective:** Synthesize a video briefing, corporate document, and web resources to extract financial insights and generate a focused Audio Overview.
+
+#### Step-by-Step Exercise:
+
+1. **Workspace Setup**:
+   - Open **NotebookLM** → click **Create a new Notebook**.
+   - Name the notebook: `Alphabet & Market Q4 Earnings`.
+   - Click **Add Source** (`+` icon) → choose **YouTube URL** → paste: `https://www.youtube.com/watch?v=mIK5-yi7a-c` → click **Insert**.
+   - Click **Add Source** → choose **Link** → paste press release PDF: `https://s206.q4cdn.com/479360582/files/doc_financials/2025/q4/2025q4-alphabet-earnings-release.pdf`.
+   - Click **Add Source** → choose **Link** → paste story link: `https://about.google/company-info/our-story/`.
+   - Click **Add Source** → **Discover sources** → type: `Recent trends in Artificial Intelligence capital expenditures` → select a generated study → click **Insert**.
+
+2. **Company Milestone Timeline**:
+   - In the chat box, type: `Based on the 'Our Story' web link, create a chronological timeline of the most important milestones in Google's history.`
+   - Press Enter → once generated, click **Save to note** (pin icon).
+
+3. **Revenue Drivers**:
+   - In the chat box, type: `What are the top 3 revenue-driving products or services mentioned in the earnings sources? Be specific about growth percentages if available.`
+   - Press Enter → click **Save to note**.
+
+4. **Risk Identification**:
+   - In the chat box, type: `What are the biggest risks, financial headwinds, or market challenges discussed by the executives on this call?`
+   - Press Enter → click **Save to note**.
+
+5. **Q&A Extraction**:
+   - In the chat box, type: `List all the questions asked by analysts during the earnings call and provide a concise summary of the answers given by the executives.`
+   - Press Enter → click **Save to note**.
+
+6. **Custom Audio Overview Generation**:
+   - In the Studio panel (right panel), locate **Audio Overview**.
+   - Click **Customize** (three dots icon).
+   - In the prompt box, type: `Focus the discussion entirely on AI investments, infrastructure costs, and capital expenditures. Ignore advertising revenue.`
+   - Click **Generate** and listen to your customized executive audio briefing.
+
+<br><br>
+
+---
+
+### Challenge Lab 2: Hotel GTM Strategy & Cross-Department Synthesis
+
+**Objective:** Synthesize multiple departmental data files (marketing, sales performance, and guest feedback) to identify correlations, conduct sentiment analysis, and generate a strategic GTM memo.
+
+#### Step-by-Step Exercise:
+
+1. **Workspace Setup**:
+   - Open **NotebookLM** → click **Create a new Notebook**.
+   - Name the notebook: `IHG GTM Strategy`.
+   - Click **Add Source** → drag and drop the three text files from your local repository folder [`data/ge_sample_data_for_workshop/xyz-sales-company/notebooklm/`](data/ge_sample_data_for_workshop/xyz-sales-company/notebooklm/):
+     - 📄 `MARKETING_data.txt`
+     - 📄 `SALES_data.txt`
+     - 📄 `customer_feedback.txt`
+   - Click **Add Source** → **Discover sources** → type: `Best practices for interpreting customer feedback and B2B sales data` → select a relevant guide → click **Insert**.
+
+2. **Cross-Department Synthesis**:
+   - In the chat box, type: `Based on the marketing data and sales data documents, identify three specific areas where marketing campaigns correlated with strong or weak sales performance.`
+   - Press Enter → review inline citations → click **Save to note**.
+
+3. **Sentiment Analysis**:
+   - In the chat box, type: `Analyze the customer feedback document. What are the top three most recurring themes or complaints? Do any of these themes directly relate to the initiatives mentioned in the sales or marketing documents?`
+   - Press Enter → click **Save to note**.
+
+4. **Strategy Memo Generation**:
+   - In the chat box, type: `Draft a concise Next Quarter Strategy Memo addressed to the GTM Director. Based strictly on the data overlaps and customer feedback in these sources, recommend two specific, actionable steps we must take next quarter. Cite the evidence.`
+   - Press Enter → click **Save to note**.
+
+5. **Team Briefing Video Overview**:
+   - In the Studio panel, locate **Video Overview**.
+   - Click **Customize** (three dots icon).
+   - In the prompt box, type: `Create a video discussing the alignment and gaps between our recent marketing campaigns and overall customer happiness.`
+   - Click **Generate** to produce your team video presentation.
+
+<br><br>
+
+---
+
+### Challenge Lab 3: Hospitality Wellness & Sleep Research Analysis
+
+**Objective:** Leverage NotebookLM's **Discover Sources** feature to aggregate research, analyze physiological sleep data, and propose an evidence-backed guest wellness plan.
+
+#### Step-by-Step Exercise:
+
+1. **Workspace Setup**:
+   - Open **NotebookLM** → click **Create a new Notebook**.
+   - Name the notebook: `Hospitality Wellness & Sleep Analysis`.
+   - Click **Add Source** → **Link** → paste: `https://www.sleepfoundation.org/nutrition/caffeine-and-sleep`.
+   - Click **Add Source** → **Discover sources** → type: `The physiological effects of caffeine on adenosine receptors and sleep cycles` → select a generated paper → click **Insert**.
+   - Click **Add Source** → **Discover sources** again → type: `Evidence-based sleep hygiene tips for adults` → select a source → click **Insert**.
+
+2. **Data Correlation**:
+   - In the chat box, type: `Based on the physiological effects described in the sources, explain the exact biological mechanism (e.g., adenosine receptors) of why late-day caffeine intake disrupts sleep architecture.`
+   - Press Enter → click **Save to note**.
+
+3. **Guest Wellness Plan**:
+   - In the chat box, type: `Write a friendly, personalized 3-point wellness plan for a hypothetical hotel guest who frequently drinks coffee at 5 PM to improve their sleep hygiene. Base the recommendations specifically on evidence from the discovered sources.`
+   - Press Enter → click **Save to note**.
+
+4. **Study Summary Brief**:
+   - In the chat box, type: `Create a concise briefing document summarizing the key takeaways from the clinical overview we discovered regarding caffeine's impact on REM and deep sleep.`
+   - Press Enter → click **Save to note**.
+
+5. **Guest Audio Overview**:
+   - In the Studio panel, locate **Audio Overview**.
+   - Click **Customize** (three dots icon).
+   - In the prompt box, type: `Focus the discussion on explaining how adenosine receptors work and present our new 3-point wellness plan for the client.`
+   - Click **Generate** to create your podcast-style audio overview.
+
+<br><br>
+
+<div class="nav-link"><a href="#top">↑ Back to Top</a></div>
 
 ---
 
